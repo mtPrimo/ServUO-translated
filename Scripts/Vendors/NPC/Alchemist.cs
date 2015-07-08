@@ -13,7 +13,9 @@ namespace Server.Mobiles
         {
             this.SetSkill(SkillName.Alchemy, 85.0, 100.0);
             this.SetSkill(SkillName.TasteID, 65.0, 88.0);
-            this.Title = this.Female ? "a alquimista" : "o alquimista"; //now, if your language have prefixes for each male and female, set it here, doing it by first female and then male after (ex. this.Title = this.Female ? "female" : "male")
+            this.Title = this.Female ? "a alquimista" : "o alquimista"; 
+            //now, if your language have prefixes for each male and female, 
+            //set it here, doing it by first female and then male after (ex. this.Title = this.Female ? "female" : "male")
         }
 
         public Alchemist(Serial serial)
